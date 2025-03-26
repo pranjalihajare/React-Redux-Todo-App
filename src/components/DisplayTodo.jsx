@@ -23,7 +23,7 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-const DisplayTodos = (props) => {
+const DisplayTodo = (props) => {
   const [sort, setSort] = useState("active");
   return (
     <div className="displaytodos">

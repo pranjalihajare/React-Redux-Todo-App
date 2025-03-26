@@ -1,5 +1,5 @@
 import "./css/main.css";
-import DisplayTodos from "./Components/DisplayTodo";
+import DisplayTodo from "./Components/DisplayTodo";
 import Todos from "./Components/Todos";
 import { motion } from "framer-motion";
 import Login from "./Components/Login";
@@ -29,7 +29,7 @@ function App() {
             transition={{ type: "spring", duration: 1 }}
           >
             <Todos />
-            <DisplayTodos />
+            <DisplayTodo />
           </motion.div>
         </>
       ) : (
